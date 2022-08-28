@@ -13,12 +13,12 @@ pipeline {
 			}
 			stage('3-make a right'){
 				steps{
-					'sh echo "walk.."'
+					sh 'echo "walk.."'
 				}
 			}
 			stage('4-cross the road'){
 				steps{
-					'sh echo "walk..."'
+					sh 'echo "walk..."'
 				}
 			}
 		}
